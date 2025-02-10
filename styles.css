@@ -1,0 +1,106 @@
+@import url(https://fonts.google.com/specimen/Oswald);
+
+
+body {
+    font-family: "Oswald", sans-serif;
+    background:#ecf0f1; 
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #34495e;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50; 
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #10364f;
+}
+
+
+section {
+    width: 45%; 
+    margin: 20px auto; 
+    background: lightgray;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+ul {
+    list-style-type:inherit; 
+    padding-left: 20px; 
+    text-align: left;
+}
+
+li {
+    margin-bottom: 15px;
+    color: black;
+    text-align: left;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+
+p {
+    line-height: 1.5; 
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px){ 
+    section{
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3{
+        font-size: 15px;
+    }
+
+    p, li{
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width: 480px){ 
+    body{
+        padding: 10px;
+    }
+
+    section{
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3 {
+        font-size: 16px;
+    }
+
+    p, li {
+        font-size: 15px;
+    }
+
+}
+
