@@ -61,20 +61,20 @@ p {
 
 @media (max-width: 768px){ 
     section{
-        width: 90%;
-        padding: 10px;
+        width: 80%;
+        padding: 12px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     h2, h3{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     p, li{
-        font-size: 15px;
+        font-size: 18px;
     }
 
 }
@@ -86,12 +86,12 @@ p {
     }
 
     section{
-        width: 90%;
+        width: 95%;
         padding: 10px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     h2, h3 {
